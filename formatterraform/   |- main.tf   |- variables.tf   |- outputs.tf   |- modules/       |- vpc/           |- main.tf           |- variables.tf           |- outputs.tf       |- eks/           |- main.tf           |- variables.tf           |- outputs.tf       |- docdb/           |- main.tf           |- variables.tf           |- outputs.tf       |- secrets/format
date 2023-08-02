@@ -1,0 +1,21 @@
+terraform/
+  |- main.tf
+  |- variables.tf
+  |- outputs.tf
+  |- modules/
+      |- vpc/
+          |- main.tf
+          |- variables.tf
+          |- outputs.tf
+      |- eks/
+          |- main.tf
+          |- variables.tf
+          |- outputs.tf
+      |- docdb/
+          |- main.tf
+          |- variables.tf
+          |- outputs.tf
+      |- secrets/
+          |- main.tf
+          |- variables.tf
+          |- outputs.tf
