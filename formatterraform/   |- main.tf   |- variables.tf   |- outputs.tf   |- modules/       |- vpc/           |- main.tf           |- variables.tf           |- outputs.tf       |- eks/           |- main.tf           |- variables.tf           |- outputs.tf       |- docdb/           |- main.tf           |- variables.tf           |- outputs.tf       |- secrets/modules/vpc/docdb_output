@@ -1,0 +1,4 @@
+output "cluster_identifier" {
+  description = "The identifier of the created DocumentDB cluster."
+  value       = aws_docdb_cluster.docdb_cluster.cluster_identifier
+}
